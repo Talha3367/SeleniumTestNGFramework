@@ -1,0 +1,15 @@
+# Ignore compiled classes and target folder
+target/** linguist-vendored
+
+# Ignore test reports
+Reports/** linguist-vendored
+Screenshots/** linguist-vendored
+
+# Ignore resource/config files
+resources/** linguist-vendored
+*.properties linguist-vendored
+*.xlsx linguist-vendored
+
+# Ignore XML and HTML files
+*.xml linguist-vendored
+*.html linguist-vendored
